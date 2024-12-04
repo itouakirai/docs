@@ -58,6 +58,12 @@
       ]
     },
     {
+      "group": "Guide",
+      "pages": [
+        "guide/android"
+      ]
+    },
+    {
       "group": "Essentials",
       "pages": [
         "essentials/markdown",
