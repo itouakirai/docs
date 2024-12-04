@@ -60,7 +60,10 @@
     {
       "group": "Guide",
       "pages": [
-        "guide/android"
+        "guide/android",
+        "guide/windows",
+        "guide/linux",
+        "guide/macos"
       ]
     },
     {
