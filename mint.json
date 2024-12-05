@@ -15,6 +15,16 @@
       "to": "#FA2D48"
     }
   },
+  "versions": [
+    {
+      "name": "English",
+      "locale": "en",
+    },
+    {
+      "name": "中文",
+      "locale": "cn"
+    }
+  ],
   "topbarLinks": [
     {
       "name": "Telegram",
@@ -46,6 +56,11 @@
       "name": "Gamdl",
       "icon": "github",
       "url": "https://github.com/glomatico/gamdl"
+    },
+        {
+      "name": "Ame",
+      "icon": "square-gitlab",
+      "url": "https://gitlab.com/SuperSaltyGamer/ame"
     }
   ],
   "navigation": [
