@@ -56,17 +56,19 @@
   "navigation": [
     {
       "group": "Guide",
-      "versions": [
-        {
-          "name": "English",
-          "locale": "en"
-        }
-      ],
+      "version": "v1",
       "pages": [
         "guide/android",
         "guide/windows",
         "guide/linux",
         "guide/macos"
+      ]
+    },
+    {
+      "group": "教程",
+      "version": "v2",
+      "pages": [
+        "guide/android-zh"
       ]
     }
   ],
