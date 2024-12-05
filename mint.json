@@ -56,6 +56,16 @@
   "navigation": [
     {
       "group": "Guide",
+      "versions": [
+        {
+          "name": "English",
+          "locale": "en",
+        },
+        {
+          "name": "中文",
+          "locale": "cn"
+        }
+      ],
       "pages": [
         "guide/android",
         "guide/windows",
