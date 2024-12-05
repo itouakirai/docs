@@ -15,16 +15,6 @@
       "to": "#FA2D48"
     }
   },
-  "versions": [
-    {
-      "name": "English",
-      "locale": "en",
-    },
-    {
-      "name": "中文",
-      "locale": "cn"
-    }
-  ],
   "topbarLinks": [
     {
       "name": "Telegram",
