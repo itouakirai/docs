@@ -6,8 +6,6 @@ icon: "android"
 
 # Preface
 
-
-
 # Installation
 
 <Steps>
@@ -39,9 +37,27 @@ icon: "android"
 
   <Step title="Step 2">
     Start ZeroTermux and enter the following command to access the download project's commands.
+
+    ```
+    cd apple-music-alac-atmos-downloader
+    ```
   </Step>
 
   <Step title="Step 3">
     You can then use the download commands to start downloading.
+
+    <CodeGroup>
+      ```Go Albun/Playlist/Artist
+      go run main.go url
+      ```
+
+      ```Go Atmos
+      go run main.go --atmos url
+      ```
+
+      ```Go Select track
+      go run main.go --select url
+      ```
+    </CodeGroup>
   </Step>
 </Steps>
