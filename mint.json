@@ -27,36 +27,28 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Guide",
+      "url": "guide"
     }
   ],
   "anchors": [
     {
-      "name": "Downloader Project",
+      "name": "apple-music-alac-atmos-downloader",
       "icon": "github",
       "url": "https://github.com/zhaarey/apple-music-alac-atmos-downloader"
     },
     {
-      "name": "Decrypt Project",
+      "name": "Wrapper",
       "icon": "github",
       "url": "https://github.com/WorldObservationLog/wrapper"
     },
     {
-      "name": "Gamdl Project",
+      "name": "Gamdl",
       "icon": "github",
       "url": "https://github.com/glomatico/gamdl"
     }
   ],
   "navigation": [
-    {
-      "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
-    },
     {
       "group": "Guide",
       "pages": [
@@ -65,37 +57,11 @@
         "guide/linux",
         "guide/macos"
       ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "github": "https://github.com/itouakirai",
+    "telegram": "https://t.me/apple_music_alac"
   },
   "feedback": {
   "suggestEdit": true,
