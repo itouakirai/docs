@@ -30,6 +30,15 @@ icon: "android"
     pkg update && pkg upgrade && pkg install git golang gpac ffmpeg && git clone https://github.com/zhaarey/apple-music-alac-atmos-downloader.git
     ```
   </Step>
+
+  <Step title="Step 3">
+    In the ZeroTermux application, swipe left from the right edge of the screen to open the file manager. Navigate to `home`,  `apple-music-alac-atmos-downloader`,  `config.yaml`. Choose the first option to edit the file.
+    <Tip>On Android, it is recommended to modify two values to change the storage location; otherwise, the files will be saved in the Termux application directory.</Tip>
+    ```
+    alac-save-folder: /storage/emulated/0/Music/AM/AM-DL downloads
+atmos-save-folder: /storage/emulated/0/Music/AM/AM-DL-Atmos downloads
+    ```
+  </Step>
 </Steps>
 
 # Usage
