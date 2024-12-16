@@ -17,11 +17,17 @@ icon: 'apple'
   </Step>
 
   <Step title="Step 2">
-    Use the Docker command to log in to the wrapper, replace `username:password` in the command with your Apple Music account(`Subscription required`). If you have enabled `2FA` verification, wait to receive the verification code, then open a new terminal and follow the prompts to enter the command. If the response is `type 6`, the login is successful. At this point, close all terminal windows.
+    Use the Docker command to log in to the wrapper, replace username:password in the command with your Apple Music account(`Subscription required`). If you have enabled 2FA verification, wait to receive the verification code, then open a new terminal and follow the prompts to enter the command. If the response is type 6, the login is successful. At this point, close all terminal windows.
 
-    ```
+    <CodeGroup>
+    ```Bash M chip
     docker run -v ./rootfs/data:/app/rootfs/data -e args="-L username:password -F" --rm ghcr.io/itouakirai/wrapper:arm
     ```
+
+    ```Bash Inter chip
+    docker run -v ./rootfs/data:/app/rootfs/data -e args="-L username:password -F" --rm ghcr.io/itouakirai/wrapper:x86
+    ```
+    </CodeGroup>
   </Step>
 </Steps>
 
@@ -29,15 +35,21 @@ icon: 'apple'
 
 <Steps>
   <Step title="Step 1">
-    Open the `first` terminal and execute the wrapper run command.
+    Open the first terminal and execute the wrapper run command.
 
-    ```
+    <CodeGroup>
+    ```Bash M chip
     docker run -v ./rootfs/data:/app/rootfs/data -p 10020:10020 -p 20020:20020 -e args="-M 20020 -H 0.0.0.0" --rm  ghcr.io/itouakirai/wrapper:arm
     ```
+
+    ```Bash Inter chip
+    docker run -v ./rootfs/data:/app/rootfs/data -p 10020:10020 -p 20020:20020 -e args="-M 20020 -H 0.0.0.0" --rm  ghcr.io/itouakirai/wrapper:x86
+    ```
+    </CodeGroup>
   </Step>
 
   <Step title="Step 2">
-    Open the `second` terminal, navigate to the directory where the download project is located, and get ready to start downloading.
+    Open the second terminal, navigate to the directory where the download project is located, and get ready to start downloading.
 
     ```
     cd apple-music-alac-atmos-downloader
