@@ -34,9 +34,10 @@ icon: "android"
   <Step title="Step 3">
     In the ZeroTermux application, swipe left from the right edge of the screen to open the file manager. Navigate to `home`,  `apple-music-alac-atmos-downloader`,  `config.yaml`. Choose the first option to edit the file.
     <Tip>On Android, it is recommended to modify two values to change the storage location; otherwise, the files will be saved in the Termux application directory.</Tip>
+
     ```
     alac-save-folder: /storage/emulated/0/Music/AM/AM-DL downloads
-atmos-save-folder: /storage/emulated/0/Music/AM/AM-DL-Atmos downloads
+    atmos-save-folder: /storage/emulated/0/Music/AM/AM-DL-Atmos downloads
     ```
   </Step>
 </Steps>
@@ -45,7 +46,7 @@ atmos-save-folder: /storage/emulated/0/Music/AM/AM-DL-Atmos downloads
 
 <Steps>
   <Step title="Step 1">
-    Launch the Apple Music application and ensure it can run continuously in the background (e.g., disable battery optimization, grant background running permissions, etc.).
+    Launch the Apple Music application and ensure it can run continuously in the background (e.g., disable battery optimization, grant background running permissions, etc.).For Android 14 and 15, you also need to enable Stop Restricting Child Processes in Developer Settings
   </Step>
 
   <Step title="Step 2">
