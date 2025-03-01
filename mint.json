@@ -78,7 +78,8 @@
       "group": "教程",
       "version": "中文",
       "pages": [
-        "guide/android-zh"
+        "guide/android-zh",
+        "guide/windows-zh"
       ]
     }
   ],
