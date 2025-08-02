@@ -43,9 +43,9 @@
   ],
   "anchors": [
     {
-      "name": "apple-music-alac-atmos-downloader",
+      "name": "apple-music-downloader",
       "icon": "github",
-      "url": "https://github.com/zhaarey/apple-music-alac-atmos-downloader"
+      "url": "https://github.com/zhaarey/apple-music-downloader"
     },
     {
       "name": "Wrapper",
