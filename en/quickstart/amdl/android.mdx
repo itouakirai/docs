@@ -1,0 +1,79 @@
+---
+title: "Android"
+description: "Apple Music Download On Android"
+icon: "android"
+---
+
+# Preface
+
+# Installation
+
+<Steps>
+  <Step title="Step 1">
+    Download and install the following two APKs: the first one is used as the decryption client, and the second one is used as the download client.
+
+    <Card title="decryption client" icon="key" href="https://github.com/itouakirai/apple-music-jshook-script/releases/download/wsa/Apple.Music_4.9.3_arm64v8a_gadget.apk">
+      https://github.com/itouakirai/apple-music-jshook-script/releases/download/wsa/Apple.Music_4.9.3_arm64v8a_gadget.apk
+    </Card>
+    <Card title="download client" icon="download" href="https://github.com/hanxinhao000/ZeroTermux/releases">
+      https://github.com/hanxinhao000/ZeroTermux/releases
+    </Card>
+  </Step>
+  <Step title="Step 2">
+    After installing the first application, open it and log in to your Apple Music account(`Subscription required`). We will proceed to configure the second application.
+
+    Open the second application, ZeroTermux, and grant the required permissions as prompted. Next, enter the following commands to configure the environment and pull the download repository (press Enter to accept the default for any Y/N prompts that appear during the process).
+
+    ```
+    pkg update && pkg upgrade && pkg install git golang gpac ffmpeg && git clone https://github.com/zhaarey/apple-music-downloader.git
+    ```
+  </Step>
+  <Step title="Step 3">
+    In the ZeroTermux application, swipe left from the right edge of the screen to open the file manager. Navigate to `home`,  `apple-music-downloader`,  `config.yaml`. Choose the first option to edit the file.
+
+    <Tip>
+      On Android, it is recommended to modify two values to change the storage location; otherwise, the files will be saved in the Termux application directory.
+    </Tip>
+    ```
+    alac-save-folder: /sdcard/Music/AM/AM-DL
+    atmos-save-folder: /sdcard/Music/AM/AM-DL-Atmos
+    aac-save-folder: /sdcard/Music/AM/AM-DL-Aac
+    ```
+  </Step>
+</Steps>
+
+# Usage
+
+<Steps>
+  <Step title="Step 1">
+    Launch the Apple Music application and ensure it can run continuously in the background (e.g., disable battery optimization, grant background running permissions, etc.).For Android 14 and 15, you also need to enable Stop Restricting Child Processes in Developer Settings
+  </Step>
+  <Step title="Step 2">
+    Start ZeroTermux and enter the following command to access the download project's commands.
+
+    ```
+    cd apple-music-downloader
+    ```
+  </Step>
+  <Step title="Step 3">
+    You can then use the download commands to start downloading.
+
+    <CodeGroup>
+
+    ```Go Albun/Playlist/Artist
+    go run main.go "url"
+    ```
+
+    
+    ```Go Atmos
+    go run main.go --atmos "url"
+    ```
+
+    
+    ```Go Select track
+    go run main.go --select "url"
+    ```
+
+    </CodeGroup>
+  </Step>
+</Steps>

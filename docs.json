@@ -1,0 +1,126 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Apple Music Download",
+  "description": "Make Apple Music Great Again !!!.",
+  "colors": {
+    "primary": "#FA2D48",
+    "light": "#FA233B",
+    "dark": "#FA2D48"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "languages": [
+      {
+        "language": "en",
+        "dropdowns": [
+          {
+            "dropdown": "AMDL",
+            "icon": "github",
+            "description": "AppleMusicDownloader(golang)",
+            "groups": [
+              {
+                "group": "Quickstart",
+                "pages": [
+                  "en/quickstart/amdl/android",
+                  "en/quickstart/amdl/windows",
+                  "en/quickstart/amdl/linux",
+                  "en/quickstart/amdl/macos"
+                ]
+              }
+            ]
+          },
+          {
+            "dropdown": "AMD-V2",
+            "icon": "github",
+            "description": "AppleMusicDecrypt(python)",
+            "groups": [
+              {
+                "group": "Quickstart",
+                "pages": [
+                  "en/quickstart/amd-v2/android",
+                  "en/quickstart/amd-v2/windows",
+                  "en/quickstart/amd-v2/linux",
+                  "en/quickstart/amd-v2/macos"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "zh",
+        "dropdowns": [
+          {
+            "dropdown": "AMDL",
+            "icon": "github",
+            "description": "苹果音乐下载器（golang）",
+            "groups": [
+              {
+                "group": "快速开始",
+                "pages": [
+                  "zh/quickstart/amdl/android",
+                  "zh/quickstart/amdl/windows",
+                  "zh/quickstart/amdl/linux",
+                  "zh/quickstart/amdl/macos"
+                ]
+              }
+            ]
+          },
+          {
+            "dropdown": "AMD-V2",
+            "icon": "github",
+            "description": "苹果音乐下载器二代(python)",
+            "groups": [
+              {
+                "group": "快速开始",
+                "pages": [
+                  "zh/quickstart/amd-v2/android",
+                  "zh/quickstart/amd-v2/windows",
+                  "zh/quickstart/amd-v2/linux",
+                  "zh/quickstart/amd-v2/macos"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Gamdl",
+          "href": "https://github.com/glomatico/gamdl",
+          "icon": "github"
+        },
+        {
+          "anchor": "Ame",
+          "href": "https://gitlab.com/SuperSaltyGamer/ame",
+          "icon": "square-gitlab"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Telegram",
+        "href": "https://t.me/applemusic_alac"
+      }
+    ],
+    "primary": {
+      "type": "github",
+      "href": "https://github.com/itouakirai/docs"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/itouakirai",
+      "telegram": "https://t.me/apple_music_alac"
+    }
+  }
+}
