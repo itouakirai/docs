@@ -12,47 +12,46 @@
   "navigation": {
     "languages": [
       {
-        "language": "en",
-        "dropdowns": [
+        "tabs": [
           {
-            "dropdown": "AMDL",
+            "tab": "AMDL",
             "icon": "github",
             "description": "AppleMusicDownloader(golang)",
             "groups": [
               {
                 "group": "Quickstart",
                 "pages": [
-                  "en/quickstart/amdl/android",
-                  "en/quickstart/amdl/windows",
-                  "en/quickstart/amdl/linux",
-                  "en/quickstart/amdl/macos"
+                  "quickstart/amdl/android",
+                  "quickstart/amdl/windows",
+                  "quickstart/amdl/linux",
+                  "quickstart/amdl/macos"
                 ]
               }
             ]
           },
           {
-            "dropdown": "AMD-V2",
+            "tab": "AMD-V2",
             "icon": "github",
             "description": "AppleMusicDecrypt(python)",
             "groups": [
               {
                 "group": "Quickstart",
                 "pages": [
-                  "en/quickstart/amd-v2/android",
-                  "en/quickstart/amd-v2/windows",
-                  "en/quickstart/amd-v2/linux",
-                  "en/quickstart/amd-v2/macos"
+                  "quickstart/amd-v2/android",
+                  "quickstart/amd-v2/windows",
+                  "quickstart/amd-v2/linux",
+                  "quickstart/amd-v2/macos"
                 ]
               }
             ]
           }
-        ]
+        ],
+        "language": "en"
       },
       {
-        "language": "zh",
-        "dropdowns": [
+        "tabs": [
           {
-            "dropdown": "AMDL",
+            "tab": "AMDL",
             "icon": "github",
             "description": "苹果音乐下载器（golang）",
             "groups": [
@@ -68,7 +67,7 @@
             ]
           },
           {
-            "dropdown": "AMD-V2",
+            "tab": "AMD-V2",
             "icon": "github",
             "description": "苹果音乐下载器二代(python)",
             "groups": [
@@ -83,7 +82,8 @@
               }
             ]
           }
-        ]
+        ],
+        "language": "zh"
       }
     ],
     "global": {
