@@ -16,15 +16,14 @@
           {
             "tab": "AMDL",
             "icon": "github",
-            "description": "AppleMusicDownloader(golang)",
             "groups": [
               {
                 "group": "Quickstart",
                 "pages": [
-                  "quickstart/amdl/android",
-                  "quickstart/amdl/windows",
-                  "quickstart/amdl/linux",
-                  "quickstart/amdl/macos"
+                  "amdl/quickstart/android",
+                  "amdl/quickstart/windows",
+                  "amdl/quickstart/linux",
+                  "amdl/quickstart/macos"
                 ]
               }
             ]
@@ -32,15 +31,14 @@
           {
             "tab": "AMD-V2",
             "icon": "github",
-            "description": "AppleMusicDecrypt(python)",
             "groups": [
               {
                 "group": "Quickstart",
                 "pages": [
-                  "quickstart/amd-v2/android",
-                  "quickstart/amd-v2/windows",
-                  "quickstart/amd-v2/linux",
-                  "quickstart/amd-v2/macos"
+                  "amd-v2/quickstart/android",
+                  "amd-v2/quickstart/windows",
+                  "amd-v2/quickstart/linux",
+                  "amd-v2/quickstart/macos"
                 ]
               }
             ]
@@ -53,15 +51,14 @@
           {
             "tab": "AMDL",
             "icon": "github",
-            "description": "苹果音乐下载器（golang）",
             "groups": [
               {
                 "group": "快速开始",
                 "pages": [
-                  "zh/quickstart/amdl/android",
-                  "zh/quickstart/amdl/windows",
-                  "zh/quickstart/amdl/linux",
-                  "zh/quickstart/amdl/macos"
+                  "zh/amdl/quickstart/android",
+                  "zh/amdl/quickstart/windows",
+                  "zh/amdl/quickstart/linux",
+                  "zh/amdl/quickstart/macos"
                 ]
               }
             ]
@@ -69,15 +66,14 @@
           {
             "tab": "AMD-V2",
             "icon": "github",
-            "description": "苹果音乐下载器二代(python)",
             "groups": [
               {
                 "group": "快速开始",
                 "pages": [
-                  "zh/quickstart/amd-v2/android",
-                  "zh/quickstart/amd-v2/windows",
-                  "zh/quickstart/amd-v2/linux",
-                  "zh/quickstart/amd-v2/macos"
+                  "zh/amd-v2/quickstart/android",
+                  "zh/amd-v2/quickstart/windows",
+                  "zh/amd-v2/quickstart/linux",
+                  "zh/amd-v2/quickstart/macos"
                 ]
               }
             ]
