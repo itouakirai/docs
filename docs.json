@@ -19,12 +19,7 @@
             "groups": [
               {
                 "group": "Quickstart",
-                "pages": [
-                  "amdl/quickstart/android",
-                  "amdl/quickstart/windows",
-                  "amdl/quickstart/linux",
-                  "amdl/quickstart/macos"
-                ]
+                "pages": []
               }
             ]
           },
@@ -34,12 +29,7 @@
             "groups": [
               {
                 "group": "Quickstart",
-                "pages": [
-                  "amd-v2/quickstart/android",
-                  "amd-v2/quickstart/windows",
-                  "amd-v2/quickstart/linux",
-                  "amd-v2/quickstart/macos"
-                ]
+                "pages": []
               }
             ]
           }
@@ -54,12 +44,7 @@
             "groups": [
               {
                 "group": "快速开始",
-                "pages": [
-                  "zh/amdl/quickstart/android",
-                  "zh/amdl/quickstart/windows",
-                  "zh/amdl/quickstart/linux",
-                  "zh/amdl/quickstart/macos"
-                ]
+                "pages": []
               }
             ]
           },
@@ -69,12 +54,7 @@
             "groups": [
               {
                 "group": "快速开始",
-                "pages": [
-                  "zh/amd-v2/quickstart/android",
-                  "zh/amd-v2/quickstart/windows",
-                  "zh/amd-v2/quickstart/linux",
-                  "zh/amd-v2/quickstart/macos"
-                ]
+                "pages": []
               }
             ]
           }
